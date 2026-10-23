@@ -218,3 +218,30 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# =========================================================
+# Project-specific: SmartKitab TTS / Video Generator
+# =========================================================
+
+# Runtime-generated directories
+assets/
+output/
+temp/
+avatar_assets/
+quick_output/
+temp_avatar/
+
+# Generated / downloaded media files
+*.mp3
+*.mp4
+*.wav
+*.aac
+
+# Avatar PNG images (root-level, downloaded at runtime)
+avatar_avataaars.png
+avatar_micah.png
+avatar_miniavs.png
+avatar_personas.png
+
+# Stray / duplicate files
+req.text
